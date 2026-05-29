@@ -122,9 +122,27 @@ a:visited {
   color: rgb(195, 67, 69);
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url("ocean scene.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  background-image: url("Wave crashing scene.jpg");
+  width: 100px;
+  height: 100px;
+}
+
 img {
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 1rem 0;
 }
