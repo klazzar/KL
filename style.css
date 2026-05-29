@@ -142,21 +142,34 @@ li {
   font-size: 16px;
 }
 
+/* Links: unified red aesthetic */
 a {
-  color: rgb(3, 13, 160);
+  color: rgb(222, 10, 10);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.18s ease;
 }
 
-a:hover {
-  color: rgb(222, 10, 10);
+a:hover,
+a:focus {
+  color: rgb(180, 10, 10);
   text-decoration: underline;
 }
 
+/* Ensure links inside sections are also red (override previous white) */
 section li a {
-  color: #fff;
+  color: rgb(222, 10, 10);
   font-weight: 600;
   text-decoration: underline;
+}
+
+/* Specific styling for First Voices search link */
+.first-voices {
+  color: rgb(222, 10, 10);
+  font-weight: 700;
+}
+
+.first-voices:hover {
+  color: rgb(255, 120, 120);
 }
 
 section li a:hover {
